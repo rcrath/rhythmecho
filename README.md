@@ -11,19 +11,22 @@ This .bgrp, operating details and revision history are on GitHub in repo rcrath/
 to do: 
 * rewrite presets
 * experiment with restoring positive attack only as an option.
-Done
+up delay buffer to 1,000,000 samples
 
-0.8.1 begun 7/19/22
-
+done
 * remove attack clicks when inertia is off using small delay and an negative envelope.
 * replace "attack" and "release" with "swell"
 * Add internal filters
+
+0.8.1 begun 7/19/22
+
+skipped for bookkeeping reasons :)
 
 0.8.0 begun 6/30/22
 2DO: 
 
 * Added abs and rel inertia types
-added various inertia algorithms. These two things make inertia a lot more interesting.
+* added various inertia algorithms. These two things make inertia a lot more interesting.
 * removed 1.5 second limit on delay
 * changed delay time variable to int variable
 * made envelope sensor into a small group and linked the left params to the right params for advanced sensor adjustments.
