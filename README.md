@@ -91,7 +91,7 @@ delay feedback set to exponential curve ( x^.5)
 
 0.1
 
-*The beat sensing is not so great right now.  It needs to 1)reject times under 50 milliseconds and 2) pick up the transients better.
+* The beat sensing is not so great right now.  It needs to 1)reject times under 50 milliseconds and 2) pick up the transients better.
 * added feedback loop and limiter to circuit
 * added smoother, which slows down the change in the delay times, creating a swooping effect when set above 1.
 * Changed first greater than back to less than: if delayed (i.e., older) time times slope ratio is _less than_ undelayed  (present) time there has been a jump in volume. 
