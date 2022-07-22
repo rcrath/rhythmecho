@@ -1,9 +1,35 @@
 Concept:
 The delay time is set by an envelope follower that measures the time between attacks and sets the delay to that time or a multiplier of it.  
 
-Use a signal with clear attacks for the trigger.  Drums and clean guitar work well.  If you want a fuzzy guitar, run the clean signal to the trigger and the processed signal to the audio ins.  The trigger does not need to be the same instrument as the audio, so for example, drums can control the delay times on a pad.  
+Use a signal with clear attacks for the trigger.  Drums and clean guitar work well.  If you want a fuzzy guitar, run the clean signal to the trigger and the processed signal to the audio ins.  The trigger does not need to be the same instrument as the audio, so for example, drums can control the delay times on a pad (aka sidechaining).  
 
 revision history
+
+0.8.1 begun 7/19
+* rewrite presets
+* Add internal filters
+* experiment with restoring positive attack only as an option.
+* remove attack clicks when inertia is off using small delay.
+Done: 
+0.8.0 begun 6/30/22
+2DO: 
+
+* Added abs and rel inertia types
+added various inertia algorithms. These two things make inertia a lot more interesting.
+* removed 1.5 second limit on delay
+* changed delay time variable to int variable
+* made envelope sensor into a small group and linked the left params to the right params for advanced sensor adjustments.
+* remove exponential env, replace with neg. attack-only envelope. For click removal. Low settings give a funky distortion.
+* changed panning panning per delay tap with default at full L, full R. These could be fun to automate!
+change wet/dry vol to a single wet/dry mix.
+* Changed Num/Den to drop down menus
+
+
+
+
+0.7.4 and 0.7.5 added presets
+0.7.3
+restored presets, added new denominators. 
 0.7.2
 * reconfigure delay calculator to provide more stable delay lengths
 * insert envelope after delay line to remove clicks
@@ -32,7 +58,7 @@ delay feedback set to exponential curve ( x^.5)
 * added autosmooth function so that smoothing (inertia) time matches (or if over 1 sec, is half of) delay time, making smoothing relate to the timing of the music too.
 * added monitoring of delay time in ms to gui
 *adjusted min and max of gui volumes so that max=1
-* changed '<' back to '>' on envelope matching
+* changed '&lt;' back to '&gt;' on envelope matching
 * added midi cc to params and midi input so that midi mappings stay put for m-Audio Radium61 keyboard.
 * took out spectral processing
 0.3
@@ -40,7 +66,7 @@ delay feedback set to exponential curve ( x^.5)
 * moved multiplier from accum input to after minimum time but before maximum time.  This allows for very short delays without _unwanted_ combing and keeps preventing delays longer than the delay can handle.  
 *changed denominator of multiplier from 32 to 64 to allow shorter delays. 
 0.2
-* changed direction of first binary op from "<" to ">".
+* changed direction of first binary op from &quot;&lt;&quot; to &quot;&gt;&quot;.
 * added min (4410 samples) and max (65535 samples) delay times to get rid of combing effects.
 * changed accum factor from single number to two integer sliders to give fractions from 12/1 to 1/32
 * changed mixing from wet/dry signal to single in single out with balance.
