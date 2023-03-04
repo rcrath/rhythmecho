@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd' scaleFactor="1">
 	<BiduleGroup id="UID_1673683435" displayName="RhythmEcho 0.8.2.2" zoom="1" type="com.plogue.groups.RhythmEcho 0.8.2.2" processingMode="process" author="rich rath http://way.net/music" displayPath="(RRfavs)\tRhythmEcho 0.8.2.2" version="0.7">
-		<Geometry x="-17.9444" y="-53.6944" w="0" h="0"/>
+		<Geometry x="-951" y="171" w="0" h="0"/>
 		<Channel index="0" name="Trigger Signal (clean)" direction="input" type="samples"/>
 		<Channel index="1" name="Audio L" direction="input" type="samples"/>
 		<Channel index="2" name="Audio R" direction="input" type="samples"/>
@@ -22,9 +22,6 @@
 			<Channel index="0" name="MIDI Input Port 1" direction="input" type="midi"/>
 			<Channel index="0" name="smoothed MIDI Output" direction="output" type="midi"/>
 			<Channel index="1" name="remainder CCs" direction="output" type="midi"/>
-			<Gui state="normal" hidden="true" generic="true">
-				<Geometry x="74" y="1" w="425" h="238"/>
-			</Gui>
 			<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
 			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
@@ -217,7 +214,7 @@
 					<Gui state="normal" hidden="true" generic="true">
 						<Geometry x="1230" y="245" w="418" h="271"/>
 					</Gui>
-					<Presets uSize="102851" checkSum="-19002">eJzt3V9r21Ycx+Hdrq/C6KZXsS2n+UucQhmFQLONdYzdCltLzWwpWPaSvvupzhgd7DuTLhuFPucqTo78kw485OKDk4uX96vl4Ld63S3aZlqUw3ExqJtZO180N9Pi6u13B6enR2cHZfHy8tnFq8V8u6y/X9ddvekG/YVNd37fLabFu83m9nw0uru7G94dDtv1zWgyHpejn6/fvJ29q1fVwaLpNlUzq4tBv/+8ab+tVnV3W83qh5+/aWfV5sMNPP/LiOF9N38+2Ly/rafFrF0Nb5ftzbYeXl99c/Vj+1O13NbF5bOvLx52DxbzadHffdO/9bT443tlMVjX1bxtlu+nRdN+2N7vr9b9nk293l1ycFIMtl29vl40u+t3X1f3/VkUg2U7+7Wev27XP1TNvF1Ni1+qZdc/xGq72d3v62q2adf9ZcOyuCwvRn++89/NmYQ5k0fOGQ/H/zxpnB5ocvLYR9o3qnyis9szJh1defTUZ3f40aTyo0nH4349ctjumn0DX/w3J9i/2gnY42PCBx9P4aP8BB/l5+/jkI9/42PvqC/Gx6f8/jj63HW8oIMOOoKOIzrooCPoOKaDDjqCjhM66KAj6Dilgw46go4zOuigIxXBMR544JF4KOZ44BF5COZ44BF56OV44BF5COZ44BF5KOZ44BF5SOZ44BF5aOZ44BF5iOZ44BF5qOZ44BE/J6ia44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH/OuhqjkeeEQeqjkeeEQeqjkeeEQeqjkeeEQeqjkeeEQeqjkeeEQeqjkeeEQeqjkeeEQeqjkeeEQeqjkeeMT/Kqia44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH4nGkmuOBR+ShmuOBR+ShmuOBR+ShmuOBR+ShmuOBR+ShmuOBR+ShmuOBR+ShmuOBR+ShmuOBR+ShmuOBR+JxrJrjgUfkoZrjgUfkoZrjgUfkoZrjgUfkoZrjgUfkoZrjgUfkoZrjgUfkoZrjgUfkoZrjgUfkoZrjgUficaKa44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH5KGa44FH4nGqmuOBR+ShmuOBR+ShmuOBR+ShmuOBR+ShmuOBR+ShmuOBR+ShmuOBR+ShmuOBR+ShmuOBR+ShmuOBR+JxpprjgUfkoZrjgUfkoZrjgUfkoZrjgUfkoZrjgUfkoZrjgUfkoZrjgUfkoZrjgUfkoZrjgUfkoZrjgUfiUY5lcz74yD50cz74yD6Ecz74yD6Ucz74yD6kcz74yD60cz74yD7Ecz74yD7Ucz74yD7kcz74yD70cz74iD5K/ZwPPrIP/ZwPPrIP/ZwPPrIP/ZwPPrIP/ZwPPrIP/ZwPPrIP/ZwPPrIP/ZwPPrIP/ZwPPrIP/ZwPPqKPiX7OBx/Zh37OBx/Zh37OBx/Zh37OBx/Zh37OBx/Zh37OBx/Zh37OBx/Zh37Oxxft42L0ajHfLuuH193lV5ZlWf/3+h1UV++6</Presets>
+					<Presets uSize="102851" checkSum="-4783">eJzt3V9r21Ycx+Hdrq/C6KZXsS2n+UucQhmFQLONdYzdCltLzWwpWPaSvvupzhgd9NuQLCuDPucqTs7xTxJ5yMWHJGcvb1fLwR/1ulu0zbQoh+NiUDezdr5orqbFxdsf9o6PD072yuLl+bOzV4v5dln/uK67etMN+oNNd3rbLabFu83m+nQ0urm5Gd7sD9v11WgyHpejXy/fvJ29q1fV3qLpNlUzq4tBv/+0ab+vVnV3Xc3qu6+/aWfV5sMFPP/HiOFtN38+2Ly/rqfFrF0Nr5ft1bYeXl58d/Fz+0u13NbF+bNvz+52DxbzadFffdO/9bT463NlMVjX1bxtlu+nRdN+2N7vr9b9nk293h3ZOyoG265eXy6a3fndx9Vt/yyKwbKd/V7PX7frn6pm3q6mxW/VsutvYrXd7K73dTXbtOv+2LAszsuz0d/v/Kk5kzBn8sA54+H485PG6YYmRw+9pftGlU/07O4Zkx5defDUz27/o0nlR5MOx/164LDdmfsGvvhvvvv6VzsB9/iY8MHHU/goH+Gj/JI+xo/ysc/Hv/Fx76ivxsdjfn4c/N91vKCDDjqCjgM66KAj6Dikgw46go4jOuigI+g4poMOOoKOEzrooCMVwTEeeOCReCjmeOAReQjmeOAReejleOAReQjmeOAReSjmeOAReUjmeOAReWjmeOAReYjmeOAReajmeOARf09QNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj/jXQ1VzPPCIPFRzPPCIPFRzPPCIPFRzPPCIPFRzPPCIPFRzPPCIPFRzPPCIPFRzPPCIPFRzPPCIPFRzPPCI/1VQNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8TjQDXHA4/IQzXHA4/IQzXHA4/IQzXHA4/IQzXHA4/IQzXHA4/IQzXHA4/IQzXHA4/IQzXHA4/IQzXHA4/E41A1xwOPyEM1xwOPyEM1xwOPyEM1xwOPyEM1xwOPyEM1xwOPyEM1xwOPyEM1xwOPyEM1xwOPyEM1xwOPxONINccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8hDNccDj8TjWDXHA4/IQzXHA4/IQzXHA4/IQzXHA4/IQzXHA4/IQzXHA4/IQzXHA4/IQzXHA4/IQzXHA4/IQzXHA4/E40Q1xwOPyEM1xwOPyEM1xwOPyEM1xwOPyEM1xwOPyEM1xwOPyEM1xwOPyEM1xwOPyEM1xwOPyEM1xwOPxKMcy+Z88JF96OZ88JF9COd88JF9KOd88JF9SOd88JF9aOd88JF9iOd88JF9qOd88JF9yOd88JF96Od88BF9lPo5H3xkH/o5H3xkH/o5H3xkH/o5H3xkH/o5H3xkH/o5H3xkH/o5H3xkH/o5H3xkH/o5H3xkH/o5H3xEHxP9nA8+sg/9nA8+sg/9nA8+sg/9nA8+sg/9nA8+sg/9nA8+sg/9nA8+sg/9nI+v2sfZ6NVivl3Wd6+7828sy7K+9PoT4mDvuw==</Presets>
 					<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 					<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 					<Parameter id="-5" userMin="0" userMax="126" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
@@ -226,7 +223,7 @@
 					<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
 					<Parameter id="2" userMin="0" userMax="15" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 					<Parameter id="3" userMin="1" userMax="60000" lockedForRandom="false" mutationFactor="0.1">60000.0</Parameter>
-					<Parameter id="4" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+					<Parameter id="4" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				</Bidule>
 				<Bidule id="UID_1671632639" type="com.plogue.ParameterModulator" displayName="smoothed CC" processingMode="process">
 					<Geometry x="-445" y="-36.5" w="0" h="0"/>
@@ -282,7 +279,7 @@ CC is set, learn turns off
 				<Bidule id="UID_1673684486" type="com.plogue.MIDIMonitor2" displayName="MIDI Monitor 2_9" processingMode="process">
 					<Geometry x="55" y="-159.5" w="0" h="0"/>
 					<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="1" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0" numDiscIn="0" numDiscOut="0"/>
-					<Gui state="normal" hidden="false" generic="true">
+					<Gui state="normal" hidden="true" generic="true">
 						<Geometry x="558" y="210" w="377" h="519"/>
 					</Gui>
 					<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
@@ -292,7 +289,7 @@ CC is set, learn turns off
 				<Bidule id="UID_1673684487" type="com.plogue.AudioMonitor" displayName="Audio Monitor_5" processingMode="process">
 					<Geometry x="-333" y="-211.5" w="0" h="0"/>
 					<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0" numDiscIn="0" numDiscOut="0"/>
-					<Gui state="normal" hidden="false" generic="true">
+					<Gui state="normal" hidden="true" generic="true">
 						<Geometry x="194" y="195" w="377" h="319"/>
 					</Gui>
 					<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
@@ -331,7 +328,7 @@ CC is set, learn turns off
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.740157</Parameter>
+				<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.275591</Parameter>
 			</Bidule>
 			<Bidule id="UID_1671632652" type="com.plogue.Smoother" displayName="Smooth" processingMode="process">
 				<Geometry x="-403" y="-46.5" w="0" h="0"/>
@@ -414,7 +411,7 @@ CC is set, learn turns off
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="1" userMax="6000" lockedForRandom="false" mutationFactor="0.1">2766.536133</Parameter>
+				<Parameter id="0" userMin="1" userMax="6000" lockedForRandom="false" mutationFactor="0.1">6000.0</Parameter>
 			</Bidule>
 			<Bidule id="UID_1671632681" type="com.plogue.Variable" displayName="smooth time (ms)" processingMode="process">
 				<Geometry x="-568" y="228.5" w="0" h="0"/>
@@ -426,7 +423,7 @@ CC is set, learn turns off
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="1" userMax="6000" lockedForRandom="false" mutationFactor="0.1">2766.536133</Parameter>
+				<Parameter id="0" userMin="1" userMax="6000" lockedForRandom="false" mutationFactor="0.1">6000.0</Parameter>
 			</Bidule>
 			<Link producerId="UID_1671632629" producerChannel="0" listenerId="UID_1671632634" listenerChannel="0"/>
 			<Link producerId="UID_1671632634" producerChannel="0" listenerId="UID_1671632648" listenerChannel="0"/>
@@ -804,16 +801,13 @@ actually there's another more elegant solution : use a MIDI CC To Params inside 
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="220500" lockedForRandom="false" mutationFactor="0.1">14053.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="220500" lockedForRandom="false" mutationFactor="0.1">23910.0</Parameter>
 			</Bidule>
 			<BiduleGroup id="UID_1673683501" displayName="env detect" zoom="1" processingMode="process" author="rich" version="1.0">
 				<Geometry x="125" y="227.5" w="0" h="0"/>
 				<Channel index="0" name="Sample Input Channel 1" direction="input" type="samples"/>
 				<Channel index="0" name="Sample Output Channel 1" direction="output" type="samples"/>
 				<Channel index="1" name="Sample Output Channel 2" direction="output" type="samples"/>
-				<Gui state="normal" hidden="true" generic="true">
-					<Geometry x="1498" y="411" w="421" h="218"/>
-				</Gui>
 				<Presets uSize="1665" checkSum="-838">eJztlE9rwjAYxnednyLk4sk0SdtZpVU2hjBwf9DLrqF91W5tUpJ06rdfrDCUrQ5hhx3MKWnzPL/3gYfE401ZoA/QJlcywYxQjECmKsvlMsEP8+deFIWDHsPjUSe+y7O6gBcNBqxBTijNcGPyBK+srYaet16vydonSi89TinzXh+n83QFpejl0lghU8DI3R9K9SRKMJVIYf9/qlJhdwN0jxBkY7IustsKEoxHnet4/x3lWYLdnNKZJPg2e6uNRUJmKFXVFiMNIlOy2CZYqp3KyYR2Vy3oRtnrY1Qb0I+5bGyavdi48BgVKn2HbKL0zPmpMsELURg3dVnbZsCJSK3STkYYHrHY+3L+icNbOPxMDiX0NIkegNhhIErpmSwekJCGUcRPE9nfEYOIsMFNFP6SkbcSz01IuB/yQXAa57fgOKfhuQFDSoLAZ37/GOlOTZ3bij0D40wA3cNC1IU9LPYWzKXZl2b//2bH3tGDPrr6tj4BbMwMsA==</Presets>
 				<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
@@ -1211,7 +1205,7 @@ actually there's another more elegant solution : use a MIDI CC To Params inside 
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="50000" lockedForRandom="false" mutationFactor="0.1">195.180573</Parameter>
+				<Parameter id="0" userMin="0" userMax="50000" lockedForRandom="false" mutationFactor="0.1">332.083344</Parameter>
 			</Bidule>
 			<Bidule id="UID_1673683564" type="com.plogue.BinaryLogicOperator" displayName="==" processingMode="process">
 				<Geometry x="284" y="213.5" w="0" h="0"/>
@@ -1636,7 +1630,7 @@ If the equation is true, output the left-side input.  If false, output whatever 
 				<Parameter id="0" userMin="0" userMax="5" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="2" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
 			</Bidule>
-			<Bidule id="UID_1673683631" type="com.plogue.AudioValueDisplay.Terminal" displayName="9368.666992" processingMode="process">
+			<Bidule id="UID_1673683631" type="com.plogue.AudioValueDisplay.Terminal" displayName="15940.0" processingMode="process">
 				<Geometry x="-394" y="58.5" w="0" h="0"/>
 				<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0" numDiscIn="0" numDiscOut="0"/>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
@@ -1728,7 +1722,7 @@ set up a delay before the echo that gets its time from the attack of the envelop
 					<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 					<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				</Bidule>
-				<Bidule id="UID_1673683647" type="com.plogue.AudioValueDisplay.Terminal" displayName="19945068.0" processingMode="process">
+				<Bidule id="UID_1673683647" type="com.plogue.AudioValueDisplay.Terminal" displayName="4806.0" processingMode="process">
 					<Geometry x="144" y="-152.5" w="0" h="0"/>
 					<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0" numDiscIn="0" numDiscOut="0"/>
 					<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
@@ -3785,7 +3779,7 @@ set up a delay before the echo that gets its time from the attack of the envelop
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="220500" lockedForRandom="false" mutationFactor="0.1">14053.0</Parameter>
+				<Parameter id="0" userMin="0" userMax="220500" lockedForRandom="false" mutationFactor="0.1">23910.0</Parameter>
 			</Bidule>
 			<BiduleGroup id="UID_1673683980" displayName="env detect" zoom="1" processingMode="process" author="rich" version="1.0">
 				<Geometry x="125" y="227.5" w="0" h="0"/>
@@ -4189,7 +4183,7 @@ set up a delay before the echo that gets its time from the attack of the envelop
 				<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
-				<Parameter id="0" userMin="0" userMax="50000" lockedForRandom="false" mutationFactor="0.1">439.156250</Parameter>
+				<Parameter id="0" userMin="0" userMax="50000" lockedForRandom="false" mutationFactor="0.1">747.187500</Parameter>
 			</Bidule>
 			<Bidule id="UID_1673684043" type="com.plogue.BinaryLogicOperator" displayName="==" processingMode="process">
 				<Geometry x="284" y="213.5" w="0" h="0"/>
@@ -4614,7 +4608,7 @@ If the equation is true, output the left-side input.  If false, output whatever 
 				<Parameter id="0" userMin="0" userMax="5" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 				<Parameter id="2" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
 			</Bidule>
-			<Bidule id="UID_1673684110" type="com.plogue.AudioValueDisplay.Terminal" displayName="21079.500000" processingMode="process">
+			<Bidule id="UID_1673684110" type="com.plogue.AudioValueDisplay.Terminal" displayName="35865.0" processingMode="process">
 				<Geometry x="-394" y="58.5" w="0" h="0"/>
 				<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0" numDiscIn="0" numDiscOut="0"/>
 				<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
@@ -4706,7 +4700,7 @@ set up a delay before the echo that gets its time from the attack of the envelop
 					<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 					<Parameter id="0" userMin="0" userMax="11" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				</Bidule>
-				<Bidule id="UID_1673684126" type="com.plogue.AudioValueDisplay.Terminal" displayName="19945068.0" processingMode="process">
+				<Bidule id="UID_1673684126" type="com.plogue.AudioValueDisplay.Terminal" displayName="4806.0" processingMode="process">
 					<Geometry x="144" y="-152.5" w="0" h="0"/>
 					<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0" numDiscIn="0" numDiscOut="0"/>
 					<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
@@ -6935,15 +6929,15 @@ Layout, bgrp, revision history, and further info on github rcrath/[rhythmecho](h
 		<VirtualParameter id="78" source="UID_1671632626" param="4" displayName="ModWhl (RO)"/>
 		<VirtualParameter id="79" source="UID_1671632626" param="6" displayName="ModWhlSmth"/>
 	</BiduleGroup>
-	<ParameterLink producerId="UID_1671632626" producerParamId="11" listenerId="UID_1671632634" listenerParamId="2"/>
-	<ParameterLink producerId="UID_1673684066" producerParamId="0" listenerId="UID_1673684033" listenerParamId="0"/>
-	<ParameterLink producerId="UID_1673684047" producerParamId="0" listenerId="UID_1673684033" listenerParamId="-2"/>
-	<ParameterLink producerId="UID_1673684033" producerParamId="0" listenerId="UID_1673684049" listenerParamId="0"/>
-	<ParameterLink producerId="UID_1673683587" producerParamId="0" listenerId="UID_1673683554" listenerParamId="0"/>
-	<ParameterLink producerId="UID_1673683568" producerParamId="0" listenerId="UID_1673683554" listenerParamId="-2"/>
+	<ParameterLink producerId="UID_1671632681" producerParamId="0" listenerId="UID_1671632652" listenerParamId="0"/>
 	<ParameterLink producerId="UID_1673683512" producerParamId="0" listenerId="UID_1673683980" listenerParamId="3"/>
 	<ParameterLink producerId="UID_1673683508" producerParamId="0" listenerId="UID_1673683987" listenerParamId="0"/>
-	<ParameterLink producerId="UID_1673683504" producerParamId="1" listenerId="UID_1673683983" listenerParamId="1"/>
+	<ParameterLink producerId="UID_1673683568" producerParamId="0" listenerId="UID_1673683554" listenerParamId="-2"/>
+	<ParameterLink producerId="UID_1673683587" producerParamId="0" listenerId="UID_1673683554" listenerParamId="0"/>
 	<ParameterLink producerId="UID_1673683554" producerParamId="0" listenerId="UID_1673683570" listenerParamId="0"/>
-	<ParameterLink producerId="UID_1671632681" producerParamId="0" listenerId="UID_1671632652" listenerParamId="0"/>
+	<ParameterLink producerId="UID_1671632626" producerParamId="11" listenerId="UID_1671632634" listenerParamId="2"/>
+	<ParameterLink producerId="UID_1673683504" producerParamId="1" listenerId="UID_1673683983" listenerParamId="1"/>
+	<ParameterLink producerId="UID_1673684047" producerParamId="0" listenerId="UID_1673684033" listenerParamId="-2"/>
+	<ParameterLink producerId="UID_1673684066" producerParamId="0" listenerId="UID_1673684033" listenerParamId="0"/>
+	<ParameterLink producerId="UID_1673684033" producerParamId="0" listenerId="UID_1673684049" listenerParamId="0"/>
 </BoardLayout>
